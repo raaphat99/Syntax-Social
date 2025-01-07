@@ -41,7 +41,7 @@ const posts: Post[] = [
     {
         id: 1,
         image:
-        "https://static-assets.codecademy.com/Courses/learn-angular/07-angular-signals/lab/01_01.jpg",
+        "https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA",
         caption: "Sleepy time.",
         likes: 20,
         reposts: 5,
@@ -53,7 +53,7 @@ const posts: Post[] = [
     {
         id: 2,
         image:
-        "https://static-assets.codecademy.com/Courses/learn-angular/07-angular-signals/lab/01_02.jpg",
+        "https://fastly.picsum.photos/id/25/5000/3333.jpg?hmac=yCz9LeSs-i72Ru0YvvpsoECnCTxZjzGde805gWrAHkM",
         caption: "What are you looking at?",
         likes: 15,
         reposts: 2,
@@ -65,7 +65,7 @@ const posts: Post[] = [
     {
         id: 3,
         image:
-        "https://images.unsplash.com/photo-1713948774998-c94bfccd572a?q=80&w=2786&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE",
         caption: "Looking for cats in the streets of Japan.",
         likes: 50,
         reposts: 10,
@@ -77,7 +77,7 @@ const posts: Post[] = [
     {
         id: 4,
         image:
-        "https://plus.unsplash.com/premium_photo-1714675222296-e8867bc9398a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://fastly.picsum.photos/id/17/2500/1667.jpg?hmac=HD-JrnNUZjFiP2UZQvWcKrgLoC_pc_ouUSWv8kHsJJY",
         caption: "Coworking session with some brilliant minds.",
         likes: 90,
         reposts: 25,
@@ -89,7 +89,7 @@ const posts: Post[] = [
     {
         id: 5,
         image:
-        "https://images.unsplash.com/photo-1569511166187-97eb6e387e19?q=80&w=3010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://fastly.picsum.photos/id/19/2500/1667.jpg?hmac=7epGozH4QjToGaBf_xb2HbFTXoV5o8n_cYzB7I4lt6g",
         caption: "books.",
         likes: 75,
         reposts: 18,
@@ -101,7 +101,7 @@ const posts: Post[] = [
     {
         id: 6,
         image:
-        "https://static-assets.codecademy.com/Courses/learn-angular/07-angular-signals/lab/01_03.jpg",
+        "https://fastly.picsum.photos/id/43/1280/831.jpg?hmac=glK-rQ0ppFClW-lvjk9FqEWKog07XkOxJf6Xg_cU9LI",
         caption: "A rosie for a sweetheart.",
         likes: 30,
         reposts: 4,
@@ -113,7 +113,7 @@ const posts: Post[] = [
     {
         id: 7,
         image:
-        "https://images.unsplash.com/photo-1568502299959-4d72c753deff?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://fastly.picsum.photos/id/48/5000/3333.jpg?hmac=y3_1VDNbhii0vM_FN6wxMlvK27vFefflbUSH06z98so",
         caption: "Today's walk: Hollywood Blvd.",
         likes: 45,
         reposts: 7,
@@ -125,7 +125,7 @@ const posts: Post[] = [
     {
         id: 8,
         image:
-        "https://images.unsplash.com/photo-1634838080334-28befa9efe80?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://fastly.picsum.photos/id/49/1280/792.jpg?hmac=NnUJy0O9-pXHLmY2loqVs2pJmgw9xzuixgYOk4ALCXU",
         caption: "My coworker says that it's time for a break.",
         likes: 80,
         reposts: 20,
@@ -161,7 +161,7 @@ const posts: Post[] = [
     {
         id: 11,
         image:
-        "https://static-assets.codecademy.com/Courses/learn-angular/07-angular-signals/lab/01-04.png",
+        "https://fastly.picsum.photos/id/50/4608/3072.jpg?hmac=E6WgCk6MBOyuRjW4bypT6y-tFXyWQfC_LjIBYPUspxE",
         caption: "Showing off the toe beans.",
         likes: 90,
         reposts: 30,
@@ -173,7 +173,7 @@ const posts: Post[] = [
     {
         id: 12,
         image:
-        "https://static-assets.codecademy.com/Courses/learn-angular/07-angular-signals/lab/01-05.JPG",
+        "https://fastly.picsum.photos/id/57/2448/3264.jpg?hmac=ewraXYesC6HuSEAJsg3Q80bXd1GyJTxekI05Xt9YjfQ",
         caption: "Eye of the tiger.",
         likes: 50,
         reposts: 23,
@@ -185,7 +185,7 @@ const posts: Post[] = [
     {
         id: 13,
         image:
-        "https://static-assets.codecademy.com/Courses/learn-angular/07-angular-signals/lab/01-06.jpg",
+        "https://fastly.picsum.photos/id/71/5000/3333.jpg?hmac=wBjyqoAke0uv6bTtbbIby9s-VTQ52gIkI-QVXWS3W0I",
         caption: "Prepare for trouble, and make it double!",
         likes: 48,
         reposts: 35,
@@ -197,7 +197,7 @@ const posts: Post[] = [
     {
         id: 14,
         image:
-        "https://static-assets.codecademy.com/Courses/learn-angular/07-angular-signals/lab/01-07.png",
+        "https://fastly.picsum.photos/id/76/4912/3264.jpg?hmac=VkFcSa2Rbv0R0ndYnz_FAmw02ON1pPVjuF_iVKbiiV8",
         caption: "Vogue.",
         likes: 21,
         reposts: 6,
@@ -209,7 +209,7 @@ const posts: Post[] = [
     {
         id: 15,
         image:
-        "https://static-assets.codecademy.com/Courses/learn-angular/07-angular-signals/lab/01-09.jpg",
+        "https://fastly.picsum.photos/id/84/1280/848.jpg?hmac=YFRYDI4UsfbeTzI8ZakNOR98wVU7a-9a2tGF542539s",
         caption: "Photosynthesizing.",
         likes: 67,
         reposts: 54,
@@ -221,7 +221,7 @@ const posts: Post[] = [
     {
         id: 16,
         image:
-        "https://static-assets.codecademy.com/Courses/learn-angular/07-angular-signals/lab/01_10.JPG",
+        "https://fastly.picsum.photos/id/89/4608/2592.jpg?hmac=G9E4z5RMJgMUjgTzeR4CFlORjvogsGtqFQozIRqugBk",
         caption: "grass.",
         likes: 67,
         reposts: 30,

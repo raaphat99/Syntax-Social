@@ -19,13 +19,11 @@ export class DataService {
   }
 
   updateCaption(postId: number, newCaption: string) {
-    const index = this.postStore().findIndex((post: Post) => post.id === postId);
-    this.postStore.update((store: Post[]) => {
-      let post = store[index];
-      post = {...post, caption: newCaption};
-      store[index] = post;
-      return store;
-    });
+    this.postStore.update((store: Post[]) => 
+      store.map((post: Post) => 
+        post.id === postId ? { ...post, caption: newCaption } : post
+      )
+    );
   }
 
   calculateEngagementScore(post: Post): number {
