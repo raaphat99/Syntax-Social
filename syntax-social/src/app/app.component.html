@@ -1,0 +1,10 @@
+<div class="container">
+
+  <h1>Syntax Social</h1>
+  <div class="admin-toggle-container">
+    <button (click)="adminService.toggleAdminMode()" class="admin-toggle">
+      {{ adminService.isAdminMode() ? 'Exit Admin Mode' : 'Enter Admin Mode' }}
+    </button>
+  </div>
+  <app-post-list></app-post-list>
+</div>

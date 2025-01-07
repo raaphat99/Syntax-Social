@@ -1,0 +1,54 @@
+
+<div class="post-container">
+    @if (post(); as post) {
+
+    <div class="post-header">
+        <a href="https://www.linkedin.com/in/raaphat99/" target="_blank"><span class="username">{{ post.author.username }}</span></a>
+        <button (click)="toggleFollow()" [class.followed]="post.author.isFollowedByUser">
+            {{ post.author.isFollowedByUser ? 'Unfollow' : 'Follow' }}
+        </button>
+    </div>
+
+    <img [ngSrc]="post.image" [alt]="post.caption" class="post-image" width="600" height="600" priority>
+
+    <div class="post-content">
+
+        @if (adminService.isAdminMode()) 
+        {
+            <div class="caption-edit">
+                <input [ngModel]="post.caption" (ngModelChange)="updateCaption($event)" #captionInput>
+            </div>
+        } 
+        @else 
+        {
+            <p class="caption">
+                <strong>{{ post.author.username }}</strong> {{ post.caption }}
+            </p>
+        }
+
+        <div class="post-stats">
+            <span>{{ post.likes }} likes</span>
+            <span>{{ post.reposts }} reposts</span>
+            <span>{{ post.author.followers }} followers</span>
+            <span>Engagement Score: {{ engagementScore() }}</span>
+        </div>
+
+        <div class="post-actions">
+            <button (click)="toggleLike()" [class.active]="post.isLikedByCurrentUser">
+                <span class="interaction-icon">❤️</span>
+                {{ post.isLikedByCurrentUser ? 'Unlike' : 'Like' }}
+            </button>
+
+            <button (click)="toggleRepost()" [class.active]="post.isReposedByCurrentUser">
+                <span class="interaction-icon">🔄</span>
+                {{ post.isReposedByCurrentUser ? 'Unrepost' : 'Repost' }}
+            </button>
+        </div>
+
+    </div>
+    } 
+    @else 
+    {
+        <p>Loading post...</p>
+    }
+</div>

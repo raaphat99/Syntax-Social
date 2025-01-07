@@ -1,0 +1,98 @@
+.post-container {
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.post-header button {
+    background: none;
+    border: 1px solid #0095f6;
+    color: #0095f6;
+    font-weight: 600;
+    padding: 5px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.post-header button.followed {
+    background: #0095f6;
+    color: white;
+}
+
+
+.username {
+    font-weight: 600;
+}
+
+.post-image {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.post-content {
+    padding: 16px;
+}
+
+.caption {
+    margin-bottom: 8px;
+}
+
+.post-stats {
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.post-stats span {
+    margin-right: 16px;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    color: #262626;
+    font-weight: 600;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.post-actions button.active {
+    color: #0095f6;
+}
+
+
+.caption-edit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.caption-edit input {
+    flex-grow: 1;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.caption-edit button {
+    padding: 8px 16px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
