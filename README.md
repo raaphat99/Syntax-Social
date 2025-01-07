@@ -1,5 +1,5 @@
 # Syntax-Social
-In this project, I practiced my knowledge of Angular Signals. I built Syntax Social, a social media application where users can interact with posts and other users. The app will use signals to handle user interactions and ensure real-time updates across the application.
+In this project, I practiced my knowledge of Angular Signals. I built Syntax Social, a simple social-media-like component where users can interact with posts and other users. The app will use signals to handle user interactions and ensure real-time updates.
 
 # Getting Started
 To get a local copy up and running, follow these simple steps:
